@@ -1,22 +1,20 @@
+# Motion Planning Algorithms
 
-# Introduction
+This repository is dedicated to the implementation and exploration of various motion planning algorithms. Motion planning is crucial in robotics, allowing robots to navigate from a starting point to a goal while avoiding obstacles. This repository covers both path planning and trajectory planning components.
 
-`Motion planning` plans the state sequence of the robot without conflict between the start and goal. 
+## Introduction
 
-`Motion planning` mainly includes `Path planning` and `Trajectory planning`.
+Motion planning includes:
+- **Path Planning**: Planning an optimal path for the robot to travel from start to goal without conflicts, considering obstacles.
+- **Trajectory Planning**: Planning the motion states to follow the global path based on kinematics and dynamics constraints.
 
-* `Path Planning`: It's based on path constraints (such as obstacles), planning the optimal path sequence for the robot to travel without conflict between the start and goal.
-* `Trajectory planning`: It plans the motion state to approach the global path based on kinematics, dynamics constraints and path sequence.
+You can find theoretical analyses and further discussions at [motion-planning](https://blog.csdn.net/frigidwinter/category_11410243.html). For ROS C++ and Matlab implementations, visit our other repositories:
+- [ROS Motion Planning](https://github.com/ai-winter/ros_motion_planning)
+- [Matlab Motion Planning](https://github.com/ai-winter/matlab_motion_planning)
 
-This repository provides the implement of common `Motion planning` algorithm, welcome your star & fork & PR.
+## Quick Start
 
-The theory analysis can be found at [motion-planning](https://blog.csdn.net/frigidwinter/category_11410243.html)
-
-We also provide ROS C++ version at [https://github.com/ai-winter/ros_motion_planning](https://github.com/ai-winter/ros_motion_planning) and Matlab Version at [https://github.com/ai-winter/matlab_motion_planning](https://github.com/ai-winter/matlab_motion_planning)
-
-# Quick Start
-The file structure is shown below
-
+Structure of this repository:
 ```
 ├─gif
 ├─graph_search
